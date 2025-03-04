@@ -65,7 +65,7 @@ app.post("/webhook", async (req, res) => {
       // Forward the entire JSON body to the webhook URL
       try {
         const webhookResponse = await fetch(
-          "https://hooks.zapier.com/hooks/catch/21135575/2ajpcba/",
+          "https://hooks.zapier.com/hooks/catch/21135575/2gka0qj/",
           {
             method: "POST",
             headers: {
